@@ -1,0 +1,77 @@
+section#howto {
+  width: 1200px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 250px auto 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+section#howto header {
+  max-width: 1000px;
+  width: 100%;
+  color: var(--common-black-text);
+  font-size: 42px;
+  text-align: center;
+}
+
+section#howto .wraper {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2.5rem;
+}
+
+section#howto .wraper .wraper-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+section#howto .wraper .wraper-item .item-img {
+  svg {
+    width: 72px;
+    height: 72px;
+    path {
+      fill: var(--common-blue);
+    }
+  }
+}
+
+section#howto .wraper .wraper-item .item-header {
+  color: var(--common-blue);
+  font-family: "Nexa_Bold";
+  font-size: 32px;
+}
+
+section#howto .wraper .wraper-item .item-description {
+  margin-top: 30px;
+}
+section#howto .howto-actions {
+  margin-top: 50px;
+}
+section#howto .howto-actions button {
+  text-transform: uppercase;
+  font-family: "Nexa_Bold";
+  border: 0;
+  background: var(--common-blue);
+  color: #fff;
+  font-size: 22px;
+  padding: 1rem 2.5rem;
+  border-radius: 2.5rem;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+  &:hover {
+    filter: brightness(90%);
+  }
+}
+
+@media (max-width: 650px) {
+  section#howto .wraper {
+    display: flex;
+    flex-direction: column;
+  }
+}

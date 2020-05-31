@@ -1,0 +1,57 @@
+section#banner {
+  margin-top: 50px;
+  width: 100%;
+  background: var(--common-green-background);
+  display: flex;
+  flex-direction: column;
+  font-family: "Nexa_Bold";
+  text-transform: uppercase;
+  padding: 3rem 0 1rem 0;
+}
+section#banner header {
+  color: var(--common-white-text);
+  font-size: 32px;
+  padding-bottom: 30px;
+}
+section#banner footer {
+  margin-top: auto;
+  font-family: "Nexa";
+  color: var(--common-black-text);
+  text-transform: none;
+}
+section#banner header,
+section#banner footer {
+  margin: 0 auto;
+}
+section#banner .wrapper {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 50px;
+}
+
+section#banner .wrapper,
+.wrapper-item {
+  padding: 0 30px;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+section#banner .wrapper .wrapper-item .item-data {
+  margin-top: 15px;
+  color: var(--common-white-text);
+  font-size: 48px;
+}
+
+@media (max-width: 650px) {
+  section#banner header {
+    text-align: center;
+  }
+  section#banner .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}

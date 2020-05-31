@@ -1,0 +1,70 @@
+:root {
+  --common-blue: #0098fc;
+  --common-blue-text: #0098fc;
+  --common-black-text: #333;
+  --common-green-background: #57d988;
+  --common-green-text: #57d988;
+  --common-white-text: #f7f7f7;
+  --common-graylight-text: #9ba8a8;
+}
+
+@font-face {
+  font-family: Nexa;
+  src: url(./fonts/Nexa_Light.otf);
+}
+
+@font-face {
+  font-family: Nexa_Bold;
+  src: url(./fonts/Nexa_Bold.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+html {
+  background: #fff;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #666;
+}
+
+::selection {
+  background: #15e8cd;
+}
+::-moz-selection {
+  background: #15e8cd;
+}
+
+body,
+input,
+button {
+  font-family: "Nexa", Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,42 @@
+section#bumper {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+section#bumper .right-content {
+  text-align: right;
+  margin-right: 150px;
+  margin-left: 50px;
+}
+section#bumper header {
+  font-family: "Nexa_Bold";
+  font-weight: 900;
+  color: var(--common-blue-text);
+  font-size: 56px;
+}
+
+section#bumper header span {
+  color: var(--common-green-text);
+  font-size: 48px;
+}
+
+section#bumper .right-content .about {
+  color: var(--common-graylight-text);
+}
+
+@media (max-width: 650px) {
+  section#bumper .left-content {
+    display: none;
+  }
+  section#bumper .right-content {
+    width: 100%;
+    padding: 0;
+    margin: 50px auto 0 auto;
+    text-align: center;
+  }
+}
