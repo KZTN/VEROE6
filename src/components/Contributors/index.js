@@ -32,6 +32,8 @@ export default function Contributors() {
                   href="http://spaceappsbrazil.org/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="Hackathon NASA Space Apps"
+
                 >
                   <img src={NASASpaceApps} alt="" srcset="" />
                 </a>
@@ -47,6 +49,7 @@ export default function Contributors() {
                 href="https://brasil.io/dataset/covid19/"
                 target="_blank"
                 rel="noopener noreferrer"
+                title="brasil.io"
               >
               <img src={Brio} alt="" srcset="" />
               </a>
@@ -56,6 +59,8 @@ export default function Contributors() {
                 href="https://sedac.ciesin.columbia.edu/"
                 target="_blank"
                 rel="noopener noreferrer"
+                title="NASA"
+
               >
                 <img src={NASA} alt="" srcset="" />
               </a>
@@ -65,6 +70,8 @@ export default function Contributors() {
                 href="http://www.dados.gov.br/"
                 target="_blank"
                 rel="noopener noreferrer"
+                title="dados.gov"
+
               >
                 <img src={Dadosgov} alt="" srcset="" />
               </a>
@@ -74,6 +81,8 @@ export default function Contributors() {
                 href="https://www.apple.com/covid19/mobility"
                 target="_blank"
                 rel="noopener noreferrer"
+                title="apple"
+
               >
                 <img src={Apple} alt="" srcset="" />
               </a>

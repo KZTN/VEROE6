@@ -19,11 +19,16 @@ export default function Map() {
   const [city, setCity] = useState("");
   function handleSubmit(e) {
     e.preventDefault();
-    alert(city);
+    const result = dataset.filter(e => (e.name).toLowerCase() === city.toLowerCase());
+    setElem({ lat: result[0].location.coordinates[0], lng: result[0].location.coordinates[1] });
+    setFieldpressed(true);
+    setzoomChanged(6);
+    setTimeout(() => {
+      setzoomChanged(10);
+    }, 500);
     setCity('');
   }
   function handleclick() {
-    setElem({ lat: -5.799659599999999, lng: -36.6444833 });
     setFieldpressed(true);
     setzoomChanged(6);
     setTimeout(() => {
@@ -69,7 +74,6 @@ export default function Map() {
                         />
                     ))}
       </GoogleMap>
-      <button onClick={handleclick}>click here</button>
       <form className="box-form" onSubmit={handleSubmit}>
         <div className="icon">
           <FaSearch className="icon-search" size={28} color="#6a6a6a" />
