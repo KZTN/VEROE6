@@ -1,5 +1,6 @@
 import React from "react";
 import { ReactComponent as Icon } from "../../assets/icon.svg";
+import {FaBars} from 'react-icons/fa';
 import "./styles.scss";
 export default function Nav() {
   return (
@@ -12,6 +13,11 @@ export default function Nav() {
             </div>
             <a href="#">VERO E6</a>
           </div>
+        </div>
+        <div className="wrapper-section">
+            <div className="wrapper-item">
+                <FaBars size={24} color="#000"/>
+            </div>
         </div>
         <div className="wrapper-section">
           <div className="wrapper-item">
