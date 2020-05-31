@@ -77,4 +77,7 @@ section#contributors
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    section#contributors .wrapper .wrapper-section .wrapper-items:nth-child(2) {
+        display: flex;
+    }
 }
