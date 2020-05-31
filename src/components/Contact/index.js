@@ -4,7 +4,7 @@ export default function Contact() {
     return (
         <section id="contact">
             <div className="content">
-                Entre em contato: <a href="mailto:hiveroe6@gmail.com">hiveroe6@gmail.com</a>
+                Contact us directly by email: <a href="mailto:projectveroe6@gmail.com">projectveroe6@gmail.com</a>
             </div>
         </section>
     );

@@ -79,9 +79,9 @@ export default function Map() {
           type="text"
           value={city}
           onChange={(e) => setCity(e.target.value)}
-          placeholder="Busque por sua cidade"
+          placeholder="Search for cities"
         />
-        <button type="submit">Buscar</button>
+        <button type="submit">Search</button>
       </form>
     </>
   );

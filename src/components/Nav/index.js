@@ -25,7 +25,7 @@ export default function Nav() {
                         <Link to="/about">ABOUT</Link>
                     </div>
                     <div className="wrapper-item">
-                        <a href="#how">HOW IT WORKS</a>
+                        <a href="#howto">HOW IT WORKS</a>
                     </div>
                     <div className="wrapper-item">
                         <Link to="/impact">IMPACT</Link>

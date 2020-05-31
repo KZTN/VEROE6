@@ -20,9 +20,14 @@ section#headerimpact .left-content {
 }
 section#headerimpact .left-content header {
     font-family: "Nexa_Bold";
-    font-weight: 900;
+    font-weight: 500;
     color: var(--common-white-text);
     font-size: 32px;
+    display: flex;
+    flex-direction: column;
+}
+section#headerimpact .left-content header strong {
+    font-size: 64px;
 }
 section#headerimpact .right-content {
     margin-bottom: auto;

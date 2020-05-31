@@ -10,10 +10,10 @@ import "./styles.scss";
 export default function Contributors() {
   return (
     <section id="contributors">
-      <header>Quem apoia este projeto</header>
+      <header>Who supports this project</header>
       <div className="wrapper">
         <div className="wrapper-section">
-          <div className="wrapper-title">Equipe</div>
+          <div className="wrapper-title">Team</div>
           <div className="wrapper-items">
             <div className="wrapper-item">Alex Robert</div>
             <div className="wrapper-item">Ana Gontijo</div>
@@ -24,7 +24,7 @@ export default function Contributors() {
           </div>
         </div>
         <div className="wrapper-section">
-          <div className="wrapper-title">Iniciativa</div>
+          <div className="wrapper-title">Initiative</div>
           <div className="wrapper-items">
             <div className="wrapper-item">
               <div className="frame">
@@ -40,7 +40,7 @@ export default function Contributors() {
           </div>
         </div>
         <div className="wrapper-section">
-          <div className="wrapper-title">Fonte de Dados</div>
+          <div className="wrapper-title">Data Source</div>
           <div className="wrapper-items">
             <div className="wrapper-item">
             <a

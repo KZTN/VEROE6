@@ -1,10 +1,11 @@
 import React from "react";
-import "./styles.scss";
+import HowTo from "../../components/HowTo";
 import { withScriptjs, withGoogleMap } from "react-google-maps";
 import MapContainer from "../../components/Map";
 import Nav from "../../components/Nav";
 import Banner from "../../components/Banner";
 import Bumper from "../../components/Bumper";
+import "./styles.scss";
 export default function Dashboard() {
     const MapWrapped = withScriptjs(withGoogleMap(MapContainer));
 
@@ -21,6 +22,7 @@ export default function Dashboard() {
                     mapElement={<div style={{ height: `100%` }} />}
                 />
             </div>
+            <HowTo/>
         </section>
     );
 }

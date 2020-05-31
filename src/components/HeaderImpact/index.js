@@ -1,5 +1,6 @@
 import React from "react";
 import Impact from "../../assets/impact.jpg";
+import Emoji from "../../interfaces/emoji";
 import "./styles.scss";
 export default function HeaderImpact() {
     return (
@@ -7,10 +8,15 @@ export default function HeaderImpact() {
             <div className="content">
                 <div className="left-content">
                     <header>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Sit consequuntur voluptatum fuga! Eius iste culpa
-                        ab amet sint dicta odit ad accusantium ullam dolorem
-                        reiciendis beatae odio, rem a quaerat!
+                        <span>
+                            Predicting outbreaks of possible infectious areas,
+                            contributing to rapid applications of public health
+                            and environmental policies and disseminating
+                            information to society
+                        </span>
+                        <strong>
+                            = saving lives <Emoji symbol="❤️" />
+                        </strong>
                     </header>
                 </div>
                 <div className="right-content">
