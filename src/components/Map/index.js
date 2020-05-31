@@ -4,6 +4,7 @@ import { FaSearch } from "react-icons/fa";
 import styles from "./GoogleMapStyles.json";
 import  "./styles.scss";
 
+import dataset from "../../data/dataset.json";
 import coordinates from "./polygons.json";
 let Arrcoordinates = coordinates[0].geojson.coordinates[0][0];
 let cordArr = [];
@@ -54,6 +55,19 @@ export default function Map() {
             fillOpacity: 0.35,
           }}
         />
+                        {dataset.map((city) => (
+                        <Marker
+                            icon={{
+                                url: require('./circle.png'),
+                                scaledSize: new window.google.maps.Size(5,5)
+                            }}
+                            key={city._id}
+                            position={{
+                                lat: city.location.coordinates[0],
+                                lng: city.location.coordinates[1],
+                            }}
+                        />
+                    ))}
       </GoogleMap>
       <button onClick={handleclick}>click here</button>
       <form className="box-form" onSubmit={handleSubmit}>
