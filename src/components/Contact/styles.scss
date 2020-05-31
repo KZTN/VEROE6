@@ -1,0 +1,19 @@
+section#contact {
+    max-width: 1200px;
+    width: 100%;
+    margin: 30px auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section#contact .content {
+    text-align: center;
+    font-family: "Nexa_Bold";
+    color: var(--common-black-text);
+    font-size: 18px;
+}
+
+section#contact .content a {
+    color: var(--common-blue-text);
+}

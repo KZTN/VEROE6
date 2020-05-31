@@ -1,17 +1,7 @@
-.box-slider {
-    width: 90%;
-    margin: 0 auto;
-}
-
-.box-info {
-    display: flex;
-    flex-direction: column;
-}
-
 form.box-form {
     height: 62px;
     width: 70%;
-    margin: 50px auto 0 auto;
+    margin: 20px auto 0 auto;
     display: flex;
     flex-direction: row;
     background: rgba(0, 0, 0, 0.025);
@@ -59,7 +49,7 @@ form.box-form input::placeholder {
     opacity: 0.6;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 1200px) {
     form.box-form {
         width: 90%;
     }
