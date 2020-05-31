@@ -14,7 +14,7 @@ export default function HeaderImpact() {
                             and disseminating information to society
                         </span>
                         <strong>
-                            = saving lives <Emoji symbol="❤️" />
+                            = saving lifes <Emoji symbol="❤️" />
                         </strong>
                     </header>
                 </div>

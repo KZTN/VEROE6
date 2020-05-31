@@ -8,6 +8,7 @@ import { ReactComponent as Alarm } from "../../assets/svgs/alarm.svg";
 import "./styles.scss";
 
 export default function HowTo() {
+
     return (
         <section id="howto">
             <header>How it works</header>
