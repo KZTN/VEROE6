@@ -48,10 +48,10 @@ export default function Map() {
         <Polygon
           paths={cordArr}
           options={{
-            strokeColor: "rgba(255,255,255,0.3)",
+            strokeColor: "rgba(0,0,0,0.5)",
             strokeOpacity: 0.8,
-            strokeWeight: 3,
-            fillColor: "rgba(255,255,255,0.1)",
+            strokeWeight: 2,
+            fillColor: "rgba(255,255,255,0.2)",
             fillOpacity: 0.35,
           }}
         />

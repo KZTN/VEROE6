@@ -10,9 +10,8 @@ export default function HeaderImpact() {
                     <header>
                         <span>
                             Predicting outbreaks of possible infectious areas,
-                            contributing to rapid applications of public health
-                            and environmental policies and disseminating
-                            information to society
+                            contributing to rapid applications of public health,
+                            and disseminating information to society
                         </span>
                         <strong>
                             = saving lives <Emoji symbol="❤️" />
