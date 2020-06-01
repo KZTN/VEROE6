@@ -65,18 +65,27 @@ export default function Map() {
                         fillOpacity: 0.35,
                     }}
                 />
-                {dataset.map((city) => (
-                    <Marker
-                        icon={{
-                            url: require("./circle_y.png"),
-                            scaledSize: new window.google.maps.Size(8, 8),
-                        }}
-                        key={city._id}
-                        position={{
-                            lat: city.location.coordinates[0],
-                            lng: city.location.coordinates[1],
-                        }}
-                    />
+                {dataset.filter((city) =>  city.location).map((city) => (
+                                        <Marker
+                                        icon={city.danger === 4? {
+                                            url: require("./circle.png"),
+                                            scaledSize: new window.google.maps.Size(8, 8),
+                                        }: city.danger=== 3? {
+                                            url: require("./circle_y.png"),
+                                            scaledSize: new window.google.maps.Size(8, 8),
+                                        }: city.danger === 2? {
+                                            url: require("./circle_b.png"),
+                                            scaledSize: new window.google.maps.Size(8, 8),
+                                        }: {
+                                            url: require("./circle_b.png"),
+                                            scaledSize: new window.google.maps.Size(8, 8),
+                                        }}
+                                        key={city._id}
+                                        position={{
+                                            lat: city.location.coordinates[0],
+                                            lng: city.location.coordinates[1],
+                                        }}
+                                    />
                 ))}
             </GoogleMap>
             <form className="box-form" onSubmit={handleSubmit}>
