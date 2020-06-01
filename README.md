@@ -22,7 +22,18 @@
 </p>
 
 
+## Starting...
+These instructions will provide a copy of the project running on your local machine for development and testing purposes.
 
+### Prerequisites
+What you need to install the software:
+
+```
+node v12.x
+yarn 1.22.4
+npm 6.14.4
+git
+```
 ### Installing the project🚀
 Cloning the project:
 
