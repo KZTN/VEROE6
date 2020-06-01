@@ -1948,7 +1948,7 @@
         "name": "BARAÚNA",
         "danger": 3,
         "__v": 0,
-        "formatted_name": "Baraúna, Rio Grande do Norte",
+        "formatted_name": "Baraúna",
         "location": {
             "coordinates": [-5.0791634, -37.6174094],
             "_id": "5ed53f95ceeaed85127f71bb",
@@ -2008,7 +2008,7 @@
         "name": "BARRABONITA",
         "danger": 2,
         "__v": 0,
-        "formatted_name": "Barra Bonita, São Paulo",
+        "formatted_name": "Barra Bonita",
         "location": {
             "coordinates": [-22.472994, -48.5637543],
             "_id": "5ed53f12ceeaed85127f687b",
@@ -2494,7 +2494,7 @@
         "name": "BENTOGONÇALVES",
         "danger": 2,
         "__v": 0,
-        "formatted_name": "Bento Gonçalves, Rio Grande do Sul",
+        "formatted_name": "Bento Gonçalves",
         "location": {
             "coordinates": [-29.1667089, -51.5169861],
             "_id": "5ed53f12ceeaed85127f68a3",
@@ -4450,7 +4450,7 @@
         "name": "CARMO",
         "danger": 3,
         "__v": 0,
-        "formatted_name": "Carmo, Rio de Janeiro",
+        "formatted_name": "Carmo",
         "location": {
             "coordinates": [-21.9314728, -42.6076037],
             "_id": "5ed53ce3ceeaed85127f2adf",
@@ -4612,7 +4612,7 @@
         "name": "CASTANHAL",
         "danger": 3,
         "__v": 0,
-        "formatted_name": "Castanhal, Pará",
+        "formatted_name": "Castanhal",
         "location": {
             "coordinates": [-1.2962162, -47.9190546],
             "_id": "5ed53bceceeaed85127f037c",
@@ -5104,7 +5104,7 @@
         "name": "COCAL",
         "danger": 2,
         "__v": 0,
-        "formatted_name": "Cocal, Piauí",
+        "formatted_name": "Cocal",
         "location": {
             "coordinates": [-3.473168, -41.5549927],
             "_id": "5ed53bd4ceeaed85127f03d1",
@@ -6794,6 +6794,12 @@
     {
         "_id": "5ed53687ceeaed85127ef169",
         "name": "FORTALEZA",
+        "formatted_name": "Fortaleza",
+        "location": {
+            "coordinates": [-3.7900894, -38.6590335],
+            "_id": "5ed53d86ceeaed85127f40a3",
+            "type": "Point"
+        },
         "danger": 3,
         "__v": 0
     },
@@ -8170,7 +8176,7 @@
         "name": "IGARASSU",
         "danger": 3,
         "__v": 0,
-        "formatted_name": "Igarassu, Pernambuco",
+        "formatted_name": "Igarassu",
         "location": {
             "coordinates": [-7.8292242, -34.9016204],
             "_id": "5ed53d86ceeaed85127f4099",
@@ -9160,7 +9166,7 @@
         "name": "ITAPIRANGA",
         "danger": 1,
         "__v": 0,
-        "formatted_name": "Itapiranga, Santa Catarina",
+        "formatted_name": "Itapiranga",
         "location": {
             "coordinates": [-27.1698985, -53.7108335],
             "_id": "5ed53f1aceeaed85127f6ac5",
@@ -9898,7 +9904,7 @@
         "name": "JARDINÓPOLIS",
         "danger": 0,
         "__v": 0,
-        "formatted_name": "Jardinópolis, São Paulo",
+        "formatted_name": "Jardinópolis",
         "location": {
             "coordinates": [-21.0277616, -47.77720490000001],
             "_id": "5ed53ea6ceeaed85127f6096",
@@ -10876,7 +10882,7 @@
         "name": "LORENA",
         "danger": 2,
         "__v": 0,
-        "formatted_name": "Lorena, São Paulo",
+        "formatted_name": "Lorena",
         "location": {
             "coordinates": [-22.7338724, -45.1201112],
             "_id": "5ed53ea0ceeaed85127f5e97",
@@ -11866,7 +11872,7 @@
         "name": "MESQUITA",
         "danger": 3,
         "__v": 0,
-        "formatted_name": "Mesquita, Rio de Janeiro",
+        "formatted_name": "Mesquita",
         "location": {
             "coordinates": [-22.7819449, -43.4293183],
             "_id": "5ed53ea3ceeaed85127f5f94",
@@ -12910,7 +12916,7 @@
         "name": "NOVAOLINDA",
         "danger": 0,
         "__v": 0,
-        "formatted_name": "Nova Olinda, Ceará",
+        "formatted_name": "Nova Olinda",
         "location": {
             "coordinates": [-7.0917903, -39.6796207],
             "_id": "5ed53ea3ceeaed85127f5f82",
@@ -13378,7 +13384,7 @@
         "name": "OUROBRANCO",
         "danger": 0,
         "__v": 0,
-        "formatted_name": "Ouro Branco, Minas Gerais",
+        "formatted_name": "Ouro Branco",
         "location": {
             "coordinates": [-9.1622013, -37.3587137],
             "_id": "5ed53ea2ceeaed85127f5ef4",
@@ -14002,7 +14008,7 @@
         "name": "PASSOS",
         "danger": 1,
         "__v": 0,
-        "formatted_name": "Passos, Minas Gerais",
+        "formatted_name": "Passos",
         "location": {
             "coordinates": [-20.7221434, -46.6133353],
             "_id": "5ed53d27ceeaed85127f3446",
@@ -14314,7 +14320,7 @@
         "name": "PEDROII",
         "danger": 2,
         "__v": 0,
-        "formatted_name": "Pedro II, Piauí",
+        "formatted_name": "Pedro II",
         "location": {
             "coordinates": [-4.4338427, -41.4537623],
             "_id": "5ed53ea1ceeaed85127f5ec9",
@@ -14620,7 +14626,7 @@
         "name": "PILÕES",
         "danger": 0,
         "__v": 0,
-        "formatted_name": "Pilões, Paraíba",
+        "formatted_name": "Pilões",
         "location": {
             "coordinates": [-6.8703667, -35.6177373],
             "_id": "5ed53ea7ceeaed85127f60bb",
@@ -15016,7 +15022,7 @@
         "name": "PLANALTINA",
         "danger": 2,
         "__v": 0,
-        "formatted_name": "Planaltina, Federal District",
+        "formatted_name": "Planaltina",
         "location": {
             "coordinates": [-15.6216249, -47.65215140000001],
             "_id": "5ed53d31ceeaed85127f36c9",
@@ -15634,7 +15640,7 @@
         "name": "PRESIDENTEVARGAS",
         "danger": 1,
         "__v": 0,
-        "formatted_name": "Presidente Vargas, Maranhão",
+        "formatted_name": "Presidente Vargas",
         "location": {
             "coordinates": [-3.4082405, -44.0237929],
             "_id": "5ed53fa3ceeaed85127f7501",
@@ -15808,7 +15814,7 @@
         "name": "QUEIMADAS",
         "danger": 1,
         "__v": 0,
-        "formatted_name": "Queimadas, Paraíba",
+        "formatted_name": "Queimadas",
         "location": {
             "coordinates": [-7.3637571, -35.9023681],
             "_id": "5ed53f18ceeaed85127f6a2c",
@@ -16894,7 +16900,7 @@
         "name": "SANTAHELENA",
         "danger": 0,
         "__v": 0,
-        "formatted_name": "Santa Helena, Santa Catarina",
+        "formatted_name": "Santa Helena",
         "location": {
             "coordinates": [-26.9374481, -53.6219549],
             "_id": "5ed53cb7ceeaed85127f251a",
@@ -17926,7 +17932,7 @@
         "name": "SINOP",
         "danger": 0,
         "__v": 0,
-        "formatted_name": "Sinop, Mato Grosso",
+        "formatted_name": "Sinop",
         "location": {
             "coordinates": [-11.8608456, -55.5095451],
             "_id": "5ed53d8fceeaed85127f43ab",
@@ -17962,7 +17968,7 @@
         "name": "SOBRADO",
         "danger": 4,
         "__v": 0,
-        "formatted_name": "Sobrado, Paraíba",
+        "formatted_name": "Sobrado",
         "location": {
             "coordinates": [-7.144696499999999, -35.2360569],
             "_id": "5ed53f1fceeaed85127f6ca4",
@@ -18490,7 +18496,7 @@
         "name": "SÃOGONÇALODOAMARANTE",
         "danger": 0,
         "__v": 0,
-        "formatted_name": "São Gonçalo do Amarante, Ceará",
+        "formatted_name": "São Gonçalo do Amarante",
         "location": {
             "coordinates": [-3.6072866, -38.96838839999999],
             "_id": "5ed53f1eceeaed85127f6c5e",
@@ -18550,7 +18556,7 @@
         "name": "SÃOJORGE",
         "danger": 0,
         "__v": 0,
-        "formatted_name": "São Jorge, Alto Paraíso de Goiás",
+        "formatted_name": "São Jorge",
         "location": {
             "coordinates": [-14.1770378, -47.813581],
             "_id": "5ed53f19ceeaed85127f6a66",
@@ -18562,7 +18568,7 @@
         "name": "SÃOJOSÉ",
         "danger": 1,
         "__v": 0,
-        "formatted_name": "São José, Santa Catarina",
+        "formatted_name": "São José",
         "location": {
             "coordinates": [-27.6140791, -48.6370861],
             "_id": "5ed53ea7ceeaed85127f60e3",
@@ -19858,9 +19864,9 @@
         "name": "TENENTEANANIAS",
         "danger": 0,
         "__v": 0,
-        "formatted_name": "39, Centro",
+        "formatted_name": "Tenente Ananias",
         "location": {
-            "coordinates": [-6.4682833, -38.1800491],
+            "coordinates": [-6.4574435, -38.1807707],
             "_id": "5ed53ea1ceeaed85127f5ed4",
             "type": "Point"
         }
@@ -20836,7 +20842,7 @@
         "name": "VALENTE",
         "danger": 2,
         "__v": 0,
-        "formatted_name": "Valente, Bahia",
+        "formatted_name": "Valente",
         "location": {
             "coordinates": [-11.4080892, -39.4589976],
             "_id": "5ed53f1aceeaed85127f6ae6",
@@ -21412,7 +21418,7 @@
         "name": "VÁRZEAGRANDE",
         "danger": 0,
         "__v": 0,
-        "formatted_name": "Várzea Grande, Mato Grosso",
+        "formatted_name": "Várzea Grande",
         "location": {
             "coordinates": [-15.646248, -56.1327131],
             "_id": "5ed53f9bceeaed85127f7297",
@@ -28954,7 +28960,7 @@
         "name": "CARLOSGOMES",
         "danger": 1,
         "__v": 0,
-        "formatted_name": "Carlos Gomes, Rio Grande do Sul",
+        "formatted_name": "Carlos Gomes",
         "location": {
             "coordinates": [-27.7171699, -51.9126334],
             "_id": "5ed53ea2ceeaed85127f5f0e",
@@ -29590,7 +29596,7 @@
         "name": "CENTRALINA",
         "danger": 0,
         "__v": 0,
-        "formatted_name": "Centralina, Minas Gerais",
+        "formatted_name": "Centralina",
         "location": {
             "coordinates": [-18.5896126, -49.19710449999999],
             "_id": "5ed53d87ceeaed85127f4137",
@@ -29686,7 +29692,7 @@
         "name": "CERROGRANDE",
         "danger": 2,
         "__v": 0,
-        "formatted_name": "Cerro Grande, Rio Grande do Sul",
+        "formatted_name": "Cerro Grande",
         "location": {
             "coordinates": [-27.6111069, -53.1677486],
             "_id": "5ed53d83ceeaed85127f3ff8",
@@ -36874,7 +36880,7 @@
         "name": "INHAÚMA",
         "danger": 3,
         "__v": 0,
-        "formatted_name": "Inhaúma, Minas Gerais",
+        "formatted_name": "Inhaúma",
         "location": {
             "coordinates": [-19.4903208, -44.3938098],
             "_id": "5ed53cb4ceeaed85127f241c",
@@ -38608,7 +38614,7 @@
         "name": "JACUTINGA",
         "danger": 1,
         "__v": 0,
-        "formatted_name": "Jacutinga, Minas Gerais",
+        "formatted_name": "Jacutinga",
         "location": {
             "coordinates": [-22.2832272, -46.6089256],
             "_id": "5ed53d90ceeaed85127f43bf",
@@ -41296,7 +41302,7 @@
         "name": "MANARI",
         "danger": 2,
         "__v": 0,
-        "formatted_name": "Manari, Pernambuco",
+        "formatted_name": "Manari",
         "location": {
             "coordinates": [-8.965321699999999, -37.6316378],
             "_id": "5ed53bd6ceeaed85127f041e",
@@ -45268,7 +45274,7 @@
         "name": "OLARIA",
         "danger": 3,
         "__v": 0,
-        "formatted_name": "Olaria, Minas Gerais",
+        "formatted_name": "Olaria",
         "location": {
             "coordinates": [-21.9210054, -43.9627492],
             "_id": "5ed53fb3ceeaed85127f7864",
@@ -46024,7 +46030,7 @@
         "name": "PALMITAL",
         "danger": 3,
         "__v": 0,
-        "formatted_name": "Palmital, São Paulo",
+        "formatted_name": "Palmital",
         "location": {
             "coordinates": [-22.787936, -50.2199938],
             "_id": "5ed53d2fceeaed85127f365a",
@@ -48028,7 +48034,7 @@
         "name": "PITANGA",
         "danger": 4,
         "__v": 0,
-        "formatted_name": "Pitanga, Paraná",
+        "formatted_name": "Pitanga",
         "location": {
             "coordinates": [-24.7547948, -51.764535],
             "_id": "5ed53d2aceeaed85127f355c",
@@ -48280,7 +48286,7 @@
         "name": "POMPÉIA",
         "danger": 3,
         "__v": 0,
-        "formatted_name": "Pompeia, São Paulo",
+        "formatted_name": "Pompeia",
         "location": {
             "coordinates": [-22.1007393, -50.1858252],
             "_id": "5ed53cfeceeaed85127f308c",
@@ -49822,7 +49828,7 @@
         "name": "REGENTEFEIJÓ",
         "danger": 0,
         "__v": 0,
-        "formatted_name": "Regente Feijó, São Paulo",
+        "formatted_name": "Regente Feijó",
         "location": {
             "coordinates": [-22.2188934, -51.3064462],
             "_id": "5ed53f1eceeaed85127f6c9b",
@@ -50962,7 +50968,7 @@
         "name": "RONDON",
         "danger": 0,
         "__v": 0,
-        "formatted_name": "Rondon, Paraná",
+        "formatted_name": "Rondon",
         "location": {
             "coordinates": [-23.4138708, -52.7660602],
             "_id": "5ed53ce6ceeaed85127f2b7b",
@@ -51202,7 +51208,7 @@
         "name": "SAGRADAFAMÍLIA",
         "danger": 2,
         "__v": 0,
-        "formatted_name": "Sagrada Família, Rio Grande do Sul",
+        "formatted_name": "Sagrada Família",
         "location": {
             "coordinates": [-27.7090243, -53.13556879999999],
             "_id": "5ed53d22ceeaed85127f32d0",
@@ -52420,7 +52426,7 @@
         "name": "SANTATEREZA",
         "danger": 2,
         "__v": 0,
-        "formatted_name": "Santa Tereza, Rio Grande do Sul",
+        "formatted_name": "Santa Tereza",
         "location": {
             "coordinates": [-29.1702208, -51.7358184],
             "_id": "5ed53ea5ceeaed85127f6068",
@@ -55192,7 +55198,7 @@
         "name": "SÃOPEDRODOSUL",
         "danger": 2,
         "__v": 0,
-        "formatted_name": "São Pedro do Sul, Rio Grande do Sul",
+        "formatted_name": "São Pedro do Sul",
         "location": {
             "coordinates": [-29.6267316, -54.1831],
             "_id": "5ed53d92ceeaed85127f4493",
@@ -56110,7 +56116,7 @@
         "name": "SERRADORAMALHO",
         "danger": 0,
         "__v": 0,
-        "formatted_name": "Serra do Ramalho, Bahia",
+        "formatted_name": "Serra do Ramalho",
         "location": {
             "coordinates": [-13.5413338, -43.5774778],
             "_id": "5ed53f9cceeaed85127f7313",
@@ -56932,7 +56938,7 @@
         "name": "TAGUATINGA",
         "danger": 0,
         "__v": 0,
-        "formatted_name": "Taguatinga, Federal District",
+        "formatted_name": "Taguatinga",
         "location": {
             "coordinates": [-15.8107481, -48.065751],
             "_id": "5ed53ce5ceeaed85127f2aff",
@@ -57148,7 +57154,7 @@
         "name": "TAPES",
         "danger": 2,
         "__v": 0,
-        "formatted_name": "Tapes, Rio Grande do Sul",
+        "formatted_name": "Tapes",
         "location": {
             "coordinates": [-30.6732959, -51.4052742],
             "_id": "5ed53fa1ceeaed85127f747b",
@@ -59296,7 +59302,7 @@
         "name": "VILAFLOR",
         "danger": 4,
         "__v": 0,
-        "formatted_name": "Vilaflor, Santa Cruz de Tenerife",
+        "formatted_name": "Vilaflor",
         "location": {
             "coordinates": [28.1578174, -16.6372355],
             "_id": "5ed53f1aceeaed85127f6b2a",
@@ -59440,7 +59446,7 @@
         "name": "VISCONDEDORIOBRANCO",
         "danger": 1,
         "__v": 0,
-        "formatted_name": "Visconde do Rio Branco, Minas Gerais",
+        "formatted_name": "Visconde do Rio Branco",
         "location": {
             "coordinates": [-21.013792, -42.8376099],
             "_id": "5ed53fa2ceeaed85127f74af",
@@ -59608,7 +59614,7 @@
         "name": "WENCESLAUBRAZ",
         "danger": 2,
         "__v": 0,
-        "formatted_name": "Wenceslau Braz, Paraná",
+        "formatted_name": "Wenceslau Braz",
         "location": {
             "coordinates": [-23.8714093, -49.8024588],
             "_id": "5ed53ceaceeaed85127f2cef",

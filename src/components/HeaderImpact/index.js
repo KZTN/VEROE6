@@ -1,5 +1,5 @@
 import React from "react";
-import Impact from "../../assets/impact.jpg";
+import Impact from "../../assets/impact2.jpg";
 import Emoji from "../../interfaces/emoji";
 import "./styles.scss";
 export default function HeaderImpact() {

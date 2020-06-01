@@ -1,30 +1,31 @@
-import React from 'react'
-import './styles.scss'
+import React from "react";
+import "./styles.scss";
 import "./styles.scss";
 export default function Banner() {
     return (
         <section id="banner">
-            <header>Conteúdo para ser adicionado no banner</header>
+            <header>conclusions spotted from our data</header>
             <div className="wrapper">
+                <div className="wrapper-item">
+                    <div className="item-header">Cities coverage</div>
+                    <div className="item-data">3089</div>
+                </div>
                 <div className="wrapper-item">
                     <div className="item-header">Under critical situation</div>
                     <div className="item-data">21.53%</div>
-
                 </div>
                 <div className="wrapper-item">
-                    <div className="item-header">Dado disso</div>
-                    <div className="item-data">14</div>
+                    <div className="item-header">general situation</div>
+                    <div className="item-data">Critical</div>
                 </div>
                 <div className="wrapper-item">
-                    <div className="item-header">Algo importante</div>
-                    <div className="item-data">34</div>
-                </div>
-                <div className="wrapper-item">
-                    <div className="item-header">Super conclusão</div>
-                    <div className="item-data">78</div>
+                    <div className="item-header">focus of the epidemic</div>
+                    <div className="item-data">southeast</div>
                 </div>
             </div>
-            <footer>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</footer>
+            <footer>
+            values ​​estimates according to general results about pandemic inflicted on the territory monitored.
+            </footer>
         </section>
     );
 }
