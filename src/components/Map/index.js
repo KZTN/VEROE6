@@ -62,7 +62,7 @@ export default function Map() {
                         fillOpacity: 0.35,
                     }}
                 />
-                {dataset.filter((city) =>  city.location).map((city) => (
+                {dataset.filter((city) =>  city.location && (city.danger >= 2)).map((city) => (
                                         <Marker
                                         icon={city.danger === 4? {
                                             url: require("./circle.png"),
@@ -70,7 +70,7 @@ export default function Map() {
                                         }: city.danger=== 3? {
                                             url: require("./circle_y.png"),
                                             scaledSize: new window.google.maps.Size(9, 9),
-                                        }:  {
+                                        }: {
                                             url: require("./circle_b.png"),
                                             scaledSize: new window.google.maps.Size(9, 9),
                                         }}

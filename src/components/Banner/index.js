@@ -1,13 +1,30 @@
-import React from "react";
+import React from 'react'
+import './styles.scss'
 import "./styles.scss";
 export default function Banner() {
     return (
         <section id="banner">
-            <header>
-                The impact : The application of more agile preventive measures,
-                reducing contamination and saving lifes.
-            </header>
+            <header>Conteúdo para ser adicionado no banner</header>
+            <div className="wrapper">
+                <div className="wrapper-item">
+                    <div className="item-header">Under critical situation</div>
+                    <div className="item-data">21.53%</div>
 
+                </div>
+                <div className="wrapper-item">
+                    <div className="item-header">Dado disso</div>
+                    <div className="item-data">14</div>
+                </div>
+                <div className="wrapper-item">
+                    <div className="item-header">Algo importante</div>
+                    <div className="item-data">34</div>
+                </div>
+                <div className="wrapper-item">
+                    <div className="item-header">Super conclusão</div>
+                    <div className="item-data">78</div>
+                </div>
+            </div>
+            <footer>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</footer>
         </section>
     );
 }

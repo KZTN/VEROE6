@@ -14,7 +14,7 @@ export default function Dashboard() {
             <Nav />
             <Bumper />
             <Banner />
-            <div className="map" style={{ width: "100%", height: "650px", marginTop: "50px" }}>
+            <div className="map">
                 <MapWrapped
                     googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.REACT_APP_GOOGLE_KEY}`}
                     loadingElement={<div style={{ height: `100%` }} />}
