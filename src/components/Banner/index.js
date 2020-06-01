@@ -12,7 +12,7 @@ export default function Banner() {
                 </div>
                 <div className="wrapper-item">
                     <div className="item-header">Under critical situation</div>
-                    <div className="item-data">21.53%</div>
+                    <div className="item-data">36.32%</div>
                 </div>
                 <div className="wrapper-item">
                     <div className="item-header">general situation</div>
