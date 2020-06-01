@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { GoogleMap, Marker, InfoWindow, Polygon } from "react-google-maps";
-import { FaSearch } from "react-icons/fa";
 import styles from "./GoogleMapStyles.json";
 import "./styles.scss";
-
+import Form from '../Form';
 import dataset from "../../data/dataset.json";
 import coordinates from "./polygons.json";
 let Arrcoordinates = coordinates[0].geojson.coordinates[0][0];
@@ -16,12 +15,12 @@ export default function Map() {
     const [elem, setElem] = useState({ lat: -15.7745457, lng: -48.3575684 });
     const [fieldpressed, setFieldpressed] = useState(false);
     const [zoomChanged, setzoomChanged] = useState(5);
-    const [city, setCity] = useState("");
-    function handleSubmit(e) {
-        e.preventDefault();
+
+
+    function handleInputField(data) {
         try {
             const result = dataset.filter(
-                (e) => e.name.toLowerCase() === city.toLowerCase()
+                (e) => e.name.toLowerCase() === data.inputfield.toLowerCase()
             );
             if (result) {
                 setFieldpressed(true);
@@ -29,7 +28,6 @@ export default function Map() {
                 setTimeout(() => {
                     setzoomChanged(10);
                 }, 500);
-                setCity("");
                 setElem({
                     lat: result[0].location.coordinates[0],
                     lng: result[0].location.coordinates[1],
@@ -69,16 +67,13 @@ export default function Map() {
                                         <Marker
                                         icon={city.danger === 4? {
                                             url: require("./circle.png"),
-                                            scaledSize: new window.google.maps.Size(8, 8),
+                                            scaledSize: new window.google.maps.Size(9, 9),
                                         }: city.danger=== 3? {
                                             url: require("./circle_y.png"),
-                                            scaledSize: new window.google.maps.Size(8, 8),
-                                        }: city.danger === 2? {
+                                            scaledSize: new window.google.maps.Size(9, 9),
+                                        }:  {
                                             url: require("./circle_b.png"),
-                                            scaledSize: new window.google.maps.Size(8, 8),
-                                        }: {
-                                            url: require("./circle_b.png"),
-                                            scaledSize: new window.google.maps.Size(8, 8),
+                                            scaledSize: new window.google.maps.Size(9, 9),
                                         }}
                                         key={city._id}
                                         position={{
@@ -88,23 +83,7 @@ export default function Map() {
                                     />
                 ))}
             </GoogleMap>
-            <form className="box-form" onSubmit={handleSubmit}>
-                <div className="icon">
-                    <FaSearch
-                        className="icon-search"
-                        size={28}
-                        color="#6a6a6a"
-                    />
-                </div>
-                <input
-                    id="input"
-                    type="text"
-                    value={city}
-                    onChange={(e) => setCity(e.target.value)}
-                    placeholder="Search for cities"
-                />
-                <button type="submit">Search</button>
-            </form>
+            <Form onSubmit={handleInputField}/>
         </>
     );
 }
