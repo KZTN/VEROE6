@@ -1,6 +1,7 @@
 section#headerimpact {
     width: 100%;
     height: 500px;
+    margin: 0 auto;
     background: var(--common-green-background);
     display: flex;
     flex-direction: row;
@@ -44,15 +45,13 @@ section#headerimpact .right-content {
 }
 
 @media (max-width: 1200px) {
-    section#headerimpact .left-content {
+    section#headerimpact .right-content {
         display: none;
     }
-    section#headerimpact .right-content {
-        width: 240px;
-        height: 240px;
-        overflow: hidden;
-        img {
-            object-fit: cover;
-        }
+    section#headerimpact .left-content {
+        width: 200%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
     }
 }

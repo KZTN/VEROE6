@@ -14,5 +14,14 @@ section#impact .text .left-content {
     justify-content: center;
 }
 
-section#impact .text .right-content {
+@media (max-width: 1200px) {
+    section#impact .text .right-content {
+        display: none;
+    }
+    section#impact .text .left-content {
+        width: 200%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
 }

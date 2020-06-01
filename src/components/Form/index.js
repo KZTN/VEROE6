@@ -7,10 +7,11 @@ export default function Form({onSubmit}) {
 
     async function handleSubmit(e) {
         e.preventDefault();
+        setInputfield('');
+        window.blur();
         await onSubmit({
           inputfield,
         });
-        setInputfield('');
       }
 
     return (

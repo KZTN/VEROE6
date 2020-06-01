@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { GoogleMap, Marker, InfoWindow, Polygon } from "react-google-maps";
+import { isMobile } from "react-device-detect";
 import styles from "./GoogleMapStyles.json";
 import "./styles.scss";
-import Form from '../Form';
+import Form from "../Form";
 import dataset from "../../data/dataset.json";
 import coordinates from "./polygons.json";
 let Arrcoordinates = coordinates[0].geojson.coordinates[0][0];
@@ -16,17 +17,24 @@ export default function Map() {
     const [fieldpressed, setFieldpressed] = useState(false);
     const [zoomChanged, setzoomChanged] = useState(5);
 
-
     function handleInputField(data) {
         try {
             const result = dataset.filter(
-                (e) => e.formatted_name && e.formatted_name.toLowerCase() === data.inputfield.toLowerCase());
+                (e) =>
+                    e.formatted_name &&
+                    e.formatted_name.toLowerCase() ===
+                        data.inputfield.toLowerCase()
+            );
             if (result) {
                 setFieldpressed(true);
-                setzoomChanged(6);
-                setTimeout(() => {
+                if (!isMobile) {
+                    setzoomChanged(6);
+                    setTimeout(() => {
+                        setzoomChanged(10);
+                    }, 500);
+                } else {
                     setzoomChanged(10);
-                }, 500);
+                }
                 setElem({
                     lat: result[0].location.coordinates[0],
                     lng: result[0].location.coordinates[1],
@@ -62,27 +70,44 @@ export default function Map() {
                         fillOpacity: 0.35,
                     }}
                 />
-                {dataset.filter((city) =>  city.location && (city.danger >= 2)).map((city) => (
-                                        <Marker
-                                        icon={city.danger === 4? {
-                                            url: require("./circle.png"),
-                                            scaledSize: new window.google.maps.Size(9, 9),
-                                        }: city.danger=== 3? {
-                                            url: require("./circle_y.png"),
-                                            scaledSize: new window.google.maps.Size(9, 9),
-                                        }: {
-                                            url: require("./circle_b.png"),
-                                            scaledSize: new window.google.maps.Size(9, 9),
-                                        }}
-                                        key={city._id}
-                                        position={{
-                                            lat: city.location.coordinates[0],
-                                            lng: city.location.coordinates[1],
-                                        }}
-                                    />
-                ))}
+                {dataset
+                    .filter((city) => city.location && city.danger >= 2)
+                    .map((city) => (
+                        <Marker
+                            icon={
+                                city.danger === 4
+                                    ? {
+                                          url: require("./circle.png"),
+                                          scaledSize: new window.google.maps.Size(
+                                              9,
+                                              9
+                                          ),
+                                      }
+                                    : city.danger === 3
+                                    ? {
+                                          url: require("./circle_y.png"),
+                                          scaledSize: new window.google.maps.Size(
+                                              9,
+                                              9
+                                          ),
+                                      }
+                                    : {
+                                          url: require("./circle_b.png"),
+                                          scaledSize: new window.google.maps.Size(
+                                              9,
+                                              9
+                                          ),
+                                      }
+                            }
+                            key={city._id}
+                            position={{
+                                lat: city.location.coordinates[0],
+                                lng: city.location.coordinates[1],
+                            }}
+                        />
+                    ))}
             </GoogleMap>
-            <Form onSubmit={handleInputField}/>
+            <Form onSubmit={handleInputField} />
         </>
     );
 }
