@@ -31,3 +31,12 @@ yarn start
 ```
 
 Visit http://localhost:3000 with your browser to see the result. 🎉
+
+## How to contribute
+
+- Fork this project
+- Create a branch with your feature: `git checkout -b minha-feature`;
+- Commit your changes: `git commit -m 'feat: Minha nova feature'`;
+- Push to your branch: `git push origin minha-feature`.
+
+After the merge of your pull request is done, you can delete your branch.
