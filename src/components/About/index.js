@@ -7,9 +7,9 @@ import NASA from "../../assets/NASA.png";
 import Apple from "../../assets/apple.png";
 import "./styles.scss";
 
-export default function Contributors() {
+export default function About() {
   return (
-    <section id="contributors">
+    <section id="about">
       <header>Who supports this project</header>
       <div className="wrapper">
         <div className="wrapper-section">

@@ -3,7 +3,7 @@ import Routes from "./routes";
 import "./App.scss";
 import Contact from "./components/Contact";
 
-import Contributors from "./components/Contributors";
+import About from "./components/About";
 import "dotenv";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
         <div className="App">
             <div className="container">
                 <Routes />
-                <Contributors />
+                <About />
                 <Contact />
             </div>
         </div>

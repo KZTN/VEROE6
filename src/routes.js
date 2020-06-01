@@ -3,7 +3,6 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
 import Dashboard from './pages/Dasboard';
 import Impact from './pages/Impact';
-import About from './pages/About';
 
 export default function Routes() {
     return (
@@ -11,7 +10,6 @@ export default function Routes() {
         <Switch>
             <Route path="/" exact component={Dashboard}/>
             <Route path="/impact" component={Impact}/>
-            <Route path="/about" component={About}/>
         </Switch>
         </BrowserRouter>
     )

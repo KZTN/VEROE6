@@ -22,7 +22,7 @@ export default function Nav() {
                 </div>
                 <div className="wrapper-section">
                     <div className="wrapper-item">
-                        <Link to="/about">ABOUT</Link>
+                        <a href="#about">ABOUT</a>
                     </div>
                     <div className="wrapper-item">
                         <a href="#howto">HOW IT WORKS</a>
