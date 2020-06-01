@@ -1,3 +1,28 @@
+
+<p align="center">
+    <img alt="VEROE6" title="#app" src=".github/icon.svg" width="250px" />
+</p>
+    <h1 align="center">VERO E6</h1>
+
+<h4 align="center">Real-time coronavirus contagious areas in Brazil</h4>
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/KZTN/VEROE6.svg">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/KZTN/VEROE6.svg">
+  
+  <a href="https://github.com/KZTN/COVID-RN/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/KZTN/VEROE6.svg">
+  </a>
+
+  <a href="https://github.com/KZTN/VEROE6/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/KZTN/VEROE6.svg">
+  </a>
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+</p>
+
+
+
 ### Installing the project🚀
 Cloning the project:
 
