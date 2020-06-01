@@ -75,5 +75,9 @@ section#howto .howto-actions button {
     section#howto .wraper {
         display: flex;
         flex-direction: column;
+        padding: 1rem;
+    }
+    section#howto .wraper .wraper-item {
+        margin-bottom: 15px;
     }
 }

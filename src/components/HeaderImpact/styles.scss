@@ -10,6 +10,7 @@ section#headerimpact {
 }
 section#headerimpact .content {
     max-width: 1200px;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -45,13 +46,20 @@ section#headerimpact .right-content {
 }
 
 @media (max-width: 1200px) {
+    section#headerimpact .content {
+        display: flex;
+        flex-direction: row;
+    }
     section#headerimpact .right-content {
         display: none;
     }
     section#headerimpact .left-content {
-        width: 200%;
-        margin: 0;
-        padding: 0;
         text-align: center;
+    }
+    section#headerimpact .left-content header {
+        font-size: 28px;
+    }
+    section#headerimpact .left-content header strong {
+        font-size: 48px;
     }
 }

@@ -63,6 +63,9 @@ section#about .wrapper .wrapper-section .wrapper-items .wrapper-item img {
 }
 
 @media (max-width: 1200px) {
+    section#about .wrapper {
+        padding: 1rem;
+    }
     section#about .wrapper .wrapper-section .wrapper-items {
         display: grid;
         grid-template-columns: 1fr 1fr;
