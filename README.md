@@ -1,8 +1,42 @@
-## Como contribuir
+### Installing the project🚀
+Cloning the project:
 
-- Faça um fork desse repositório;
-- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
-- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
-- Faça push para a sua branch: `git push origin minha-feature`.
+```
+git clone https://github.com/KZTN/VEROE6.git
+```
 
-Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+Go to the project folder:
+
+```
+cd VEROE6
+```
+
+Create an .env file at the root of the project and add the following lines:
+
+```bash
+REACT_APP_GOOGLE_KEY= YOUR_GOOGLE_API_HERE
+```
+> To get your own google API go to https://console.cloud.google.com/
+
+Getting project dependencies:
+
+```bash
+yarn install
+```
+
+Run the project:
+
+```bash
+yarn start
+```
+
+Visit http://localhost:3000 with your browser to see the result. 🎉
+
+## How to contribute
+
+- Fork this project
+- Create a branch with your feature: `git checkout -b minha-feature`;
+- Commit your changes: `git commit -m 'feat: Minha nova feature'`;
+- Push to your branch: `git push origin minha-feature`.
+
+After the merge of your pull request is done, you can delete your branch.
