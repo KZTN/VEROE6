@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { GoogleMap, Marker, InfoWindow, Polygon } from "react-google-maps";
 import styles from "./GoogleMapStyles.json";
 import "./styles.scss";
@@ -20,8 +20,7 @@ export default function Map() {
     function handleInputField(data) {
         try {
             const result = dataset.filter(
-                (e) => e.name.toLowerCase() === data.inputfield.toLowerCase()
-            );
+                (e) => e.formatted_name && e.formatted_name.toLowerCase() === data.inputfield.toLowerCase());
             if (result) {
                 setFieldpressed(true);
                 setzoomChanged(6);
@@ -34,7 +33,7 @@ export default function Map() {
                 });
             }
         } catch (error) {
-            alert(error);
+            console.log(error);
         }
     }
 
