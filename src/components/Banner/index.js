@@ -24,7 +24,9 @@ export default function Banner() {
                 </div>
             </div>
             <footer>
-            values ​​estimates according to general results about pandemic inflicted on the territory monitored.
+                values ​​estimates according to latest data
+                retrieved(05/31/2020) about the pandemic inflicted on the
+                territory monitored.
             </footer>
         </section>
     );
