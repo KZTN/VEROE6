@@ -24,6 +24,13 @@
 ## 💻 Project
 VERO E6 is an ML interface that aims to reduce the contagion of threatened by COVID-19 in Brazil
 
+## 🤔 Reason
+
+By the country not offer a complete coverage of where is focused the main place of contamination. The project aims to:
+-  Make a full coverage of all Brazil territory covid focus 
+-  Alert users to avoid dangerous places
+
+
 ## Starting...
 These instructions will provide a copy of the project running on your local machine for development and testing purposes.
 
