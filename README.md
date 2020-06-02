@@ -29,6 +29,7 @@ VERO E6 is an ML interface that aims to reduce the contagion of threatened by CO
 By the country not offer a complete coverage of where is focused the main place of contamination. The project aims to:
 -  Make a full coverage of all Brazil territory covid focus 
 -  Alert users to avoid dangerous places
+-  Saving Lifes
 
 
 ## Starting...
