@@ -21,6 +21,8 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 
+## 💻 Project
+VERO E6 is an ML interface that aims to reduce the contagion of threatened by COVID-19 in Brazil
 
 ## Starting...
 These instructions will provide a copy of the project running on your local machine for development and testing purposes.
