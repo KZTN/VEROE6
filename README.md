@@ -1,6 +1,6 @@
 
-<p align="center">
-    <a href="https://veroe6.herokuapp.com/><img alt="VEROE6" title="#app" src=".github/icon.svg" width="250px" /></a>
+ <p align="center">
+   <a href="https://veroe6.herokuapp.com"><img alt="VEROE6" title="#app" src=".github/icon.svg" width="250px/></a>
 </p>
     <h1 align="center">VERO E6</h1>
 
