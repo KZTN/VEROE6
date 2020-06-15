@@ -20,9 +20,7 @@ Real-time coronavirus contagious areas in Brazil</h4>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
-<p align="center">
-  <img alt="Estimulo" src=".github/Halt_showcase.png" width="100%">
-</p>
+
 
 ## :warning: Atenção
 Este projeto foi feito com a iniciativa do hackathon NASASPACEAPPS. Todo o protótipo está funcional e pronto para uso. Devido a não manuntenção de novo envio de dados. O mesmo foi descontinuado.
