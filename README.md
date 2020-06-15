@@ -23,7 +23,7 @@ Real-time coronavirus contagious areas in Brazil</h4>
 
 
 ## :warning: Atenção
-Este projeto foi feito com a iniciativa do hackathon NASASPACEAPPS. Todo o protótipo está funcional e pronto para uso. Devido a não manuntenção de novo envio de dados. O mesmo foi descontinuado.
+Este projeto foi feito com a iniciativa do hackathon [NASA SPACEAPPS](http://spaceappsbrazil.org/). Todo o protótipo está funcional e pronto para uso. Devido a não manuntenção novos envios de dados,o mesmo foi descontinuado.
 
 ## 💻 Project
 VERO E6 is an ML interface that aims to reduce the contagion of threatened by COVID-19 in Brazil
