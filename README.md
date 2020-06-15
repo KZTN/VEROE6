@@ -2,7 +2,6 @@
  <p align="center">
    <a href="https://veroe6.herokuapp.com"><img alt="VEROE6" title="#app" src=".github/icon.svg" width="250px/></a>
 </p>
-    <h1 align="center">VERO E6</h1>
 
 <h4 align="center">Real-time coronavirus contagious areas in Brazil</h4>
 <p align="center">
@@ -20,6 +19,8 @@
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
+## :warning: Atenção
+Este projeto foi feito com a iniciativa do hackathon NASASPACEAPPS. Todo o protótipo está funcional e pronto para uso. Devido a não manuntenção de novo envio de dados. O mesmo foi descontinuado.
 
 ## 💻 Project
 VERO E6 is an ML interface that aims to reduce the contagion of threatened by COVID-19 in Brazil
@@ -77,12 +78,3 @@ yarn start
 ```
 
 Visit http://localhost:3000 with your browser to see the result. 🎉
-
-## How to contribute
-
-- Fork this project
-- Create a branch with your feature: `git checkout -b minha-feature`;
-- Commit your changes: `git commit -m 'feat: Minha nova feature'`;
-- Push to your branch: `git push origin minha-feature`.
-
-After the merge of your pull request is done, you can delete your branch.
