@@ -1,15 +1,16 @@
-
- <p align="center">
-   <a href="https://veroe6.herokuapp.com"><img alt="VEROE6" title="#app" src=".github/icon.svg" width="250px/></a>
+<p align="center">
+    <a href="https://veroe6.herokuapp.com/"><img alt="Halt" title="#app" src=".github/icon.svg" width="250px" /><a/>
 </p>
+    <h1 align="center">VEROE6</h1>
 
-<h4 align="center">Real-time coronavirus contagious areas in Brazil</h4>
+<h4 align="center">
+Real-time coronavirus contagious areas in Brazil</h4>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/KZTN/VEROE6.svg">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/KZTN/VEROE6.svg">
   
-  <a href="https://github.com/KZTN/COVID-RN/commits/master">
+  <a href="https://github.com/KZTN/VEROE6/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/KZTN/VEROE6.svg">
   </a>
 
@@ -19,6 +20,10 @@
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
+<p align="center">
+  <img alt="Estimulo" src=".github/Halt_showcase.png" width="100%">
+</p>
+
 ## :warning: Atenção
 Este projeto foi feito com a iniciativa do hackathon NASASPACEAPPS. Todo o protótipo está funcional e pronto para uso. Devido a não manuntenção de novo envio de dados. O mesmo foi descontinuado.
 
